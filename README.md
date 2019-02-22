@@ -6,6 +6,8 @@ __/plugin-branch *branch*__ -- Build specified bb-plugins branch (Comdb2 develop
 
 __/runtests__ -- Run tests for the pull request (Comdb2 developers only).
 
+__/skipsysbench__ -- Dont run sysbench on pull request
+
 __/silent__ -- Hush mode.
 
 __/cbuild-compile-only__ -- Compile but don't submit the branch to robomark.
