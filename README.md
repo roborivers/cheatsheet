@@ -13,3 +13,5 @@ __/silent__ -- Hush mode.
 __/cbuild-compile-only__ -- Compile but don't submit the branch to robomark.
 
 __/build-type *type*__ -- Specify the build type. Possible values are empty, Debug, Release, RelWithDebInfo and MinSizeRel (Case-sensitive).
+
+__/adhoc-test *test1 test2 ...*__ -- Run a specific list of tests. Skips bb-plugins build.
